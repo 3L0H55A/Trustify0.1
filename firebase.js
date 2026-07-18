@@ -1,15 +1,11 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyDy3woJe3UcggwiJhfYqQohZrDFadNlj1g",
-  authDomain: "trustify-f324e.firebaseapp.com",
-  projectId: "trustify-f324e",
-  storageBucket: "trustify-f324e.firebasestorage.app",
-  messagingSenderId: "952055889025",
-  appId: "1:952055889025:web:a667882a6249c979f32180",
-  measurementId: "G-0ET919LLJP"
-};
-
-const app = initializeApp(firebaseConfig);
-
-console.log("Firebase Connected!");
+// This file has been removed to prevent duplicate Firebase initialization
+// and hardcoded credentials exposure.
+//
+// ⚠️ IMPORTANT: Use js/firebase.js instead
+//
+// The Firebase configuration is now loaded from environment variables.
+// See .env.example for setup instructions.
+//
+// If you still need Firebase initialization at the root level:
+// 1. Import from js/firebase.js instead
+// 2. Example: import { auth, db, storage } from './js/firebase.js';
