@@ -4,7 +4,7 @@ import {
   signOut
 } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-auth.js";
 
-import { auth } from "../firebase.js";
+import { auth } from "./firebase.js";
 
 // Register
 export async function register(email, password) {
