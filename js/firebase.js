@@ -4,7 +4,7 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.13.2/firebas
 import { getStorage } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-storage.js";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
+  apiKey: "AIzaSyDy3woJe3UcggwiJhfYqQohZrDFadNlj1g",
   authDomain: "trustify-f324e.firebaseapp.com",
   projectId: "trustify-f324e",
   storageBucket: "trustify-f324e.firebasestorage.app",
